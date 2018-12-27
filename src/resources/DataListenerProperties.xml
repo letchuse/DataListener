@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<configuration>
+	<Network Direction="dst" IP_Address="10.115.171.109" Port="11112" />
+	<Network Direction="dst" IP_Address="172.30.44.16" />
+	<Network IP_Address="192.168.1.2" />
+	<!-- <Network /> -->
+	<Test>Hello</Test>
+</configuration>

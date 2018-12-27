@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="DEBUG">
+	<Appenders>
+		<RollingFile name="FileAppender" fileName="logs/DataListener.log" filePattern="logs/DataListener-%i.log">
+			<PatternLayout pattern="%d %p %c{1} [%t] %M - %m%n" />
+				<!-- <Pattern>%d [%c{1}][%-5p] %x - %m%n</Pattern> -->
+				<!-- <Pattern>%d %p %C{1.} [%t] %m%n</Pattern>
+			</PatternLayout> -->
+			<Policies>
+				<SizeBasedTriggeringPolicy size="1 MB"/>
+			</Policies>
+			<DefaultRolloverStrategy max="5"/>
+		</RollingFile>
+		<Async name="Async">
+			<AppenderRef ref="FileAppender"/>
+		</Async>
+	</Appenders>
+	<Loggers>
+		<Logger name="com.ballyts.datalistener" level="debug" additivity="false">
+			<AppenderRef ref="Async"/>
+		</Logger>
+		<Root level="Info">
+			<AppenderRef ref="Async"/>
+		</Root>
+	</Loggers>
+</Configuration>
