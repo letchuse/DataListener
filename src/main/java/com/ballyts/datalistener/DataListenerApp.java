@@ -81,8 +81,7 @@ public class DataListenerApp
 		}
 		
 	}
-	
-//TODO Register Shutdown Hook	
+		
     public static void main( String[] args ){
     	DataListenerApp trafficListener = new DataListenerApp();
     	trafficListener.startListening();
