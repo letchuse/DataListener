@@ -2,9 +2,9 @@ package com.ballyts.datalistener;
 
 public class ShutdownThread extends Thread {
 	
-	DataListenerApp listenerApp;
+	DataListener listenerApp;
 
-	public ShutdownThread(DataListenerApp listenerApp){
+	public ShutdownThread(DataListener listenerApp){
 		this.listenerApp = listenerApp;
 	}
 	

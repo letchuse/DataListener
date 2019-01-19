@@ -20,11 +20,15 @@ import org.pcap4j.core.PcapNetworkInterface.PromiscuousMode;
 import org.pcap4j.packet.IpV4Packet;
 import org.pcap4j.packet.IpV4Rfc1349Tos;
 import org.pcap4j.packet.Packet;
+import org.springframework.context.annotation.Scope;
+import org.springframework.stereotype.Component;
 
 import com.ballyts.datalistener.PacketCaptureInfo.IPDirection;
 import com.ballyts.datalistener.util.PropertyReader;
 
-public class NetworkTrafficListener implements DataListener, Runnable {
+@Component("NetworkTrafficListener")
+@Scope("prototype")
+public class NetworkTrafficListener implements DataListenerInterface, Runnable {
 	
 	private static Logger logger = LogManager.getLogger(NetworkTrafficListener.class);
 	

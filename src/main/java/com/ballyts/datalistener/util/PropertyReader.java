@@ -16,10 +16,10 @@ public class PropertyReader {
 	static {
 		try {
 			properties = new Properties();
-			properties.load(ClassLoader.getSystemClassLoader().getResourceAsStream("DataListener.properties"));
+			properties.load(ClassLoader.getSystemClassLoader().getResourceAsStream("DataListenerInterface.properties"));
 			logger.info("Properties loaded");
 		}catch(Exception e){
-			logger.error("Error loading DataListener.properties file. "+e.getMessage());
+			logger.error("Error loading DataListenerInterface.properties file. "+e.getMessage());
 		}
 	}
 

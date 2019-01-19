@@ -5,7 +5,7 @@ import junit.framework.TestCase;
 import junit.framework.TestSuite;
 
 /**
- * Unit test for simple DataListenerApp.
+ * Unit test for simple DataListener.
  */
 public class AppTest 
     extends TestCase

@@ -2040,3 +2040,27 @@
 2018-12-26 18:09:43,069 DEBUG NetworkTrafficListener [main]  - Obtained handle 
 2018-12-26 18:09:43,069 DEBUG NetworkTrafficListener [main]  - Filter set as: host 192.168.1.2
 2018-12-26 18:09:43,069 DEBUG DataListenerApp [main]  - Started Thread
+2019-01-15 09:21:42,232 INFO DataListenerApp [main]  - Starting DataListenerApp on LT-5CG6285TNQ with PID 28164 (D:\Projects\workspace\DataListener\target\classes started by lmuthaiah in D:\Projects\workspace\DataListener)
+2019-01-15 09:21:42,235 DEBUG DataListenerApp [main]  - Running with Spring Boot v2.1.1.RELEASE, Spring v5.1.3.RELEASE
+2019-01-15 09:21:42,236 INFO DataListenerApp [main]  - No active profile set, falling back to default profiles: default
+2019-01-15 09:21:46,210 INFO NetworkTrafficListener [main]  - Couldnt locate network interface for IP: 10.115.171.109
+2019-01-15 09:21:46,212 ERROR DataListener [main]  - Error launching listener Thread Error creating bean with name 'NetworkTrafficListener' defined in file [D:\Projects\workspace\DataListener\target\classes\com\ballyts\datalistener\NetworkTrafficListener.class]: Bean instantiation via constructor failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.ballyts.datalistener.NetworkTrafficListener]: Constructor threw exception; nested exception is java.lang.NullPointerException
+2019-01-15 09:21:46,654 DEBUG NetworkTrafficListener [main]  - Choosing interface with MAC address ec:8e:b5:9c:29:60
+2019-01-15 09:21:46,660 DEBUG NetworkTrafficListener [main]  - Obtained handle 
+2019-01-15 09:21:46,661 DEBUG NetworkTrafficListener [main]  - Filter set as:  host 172.30.44.16
+2019-01-15 09:21:46,665 DEBUG DataListener [main]  - Started Thread
+2019-01-15 09:21:47,461 INFO NetworkTrafficListener [main]  - Couldnt locate network interface for IP: 192.168.1.16
+2019-01-15 09:21:47,462 ERROR DataListener [main]  - Error launching listener Thread Error creating bean with name 'NetworkTrafficListener' defined in file [D:\Projects\workspace\DataListener\target\classes\com\ballyts\datalistener\NetworkTrafficListener.class]: Bean instantiation via constructor failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.ballyts.datalistener.NetworkTrafficListener]: Constructor threw exception; nested exception is java.lang.NullPointerException
+2019-01-15 09:21:47,752 INFO DataListenerApp [main]  - Started DataListenerApp in 6.48 seconds (JVM running for 9.501)
+2019-01-15 09:27:35,985 INFO DataListenerApp [main]  - Starting DataListenerApp on LT-5CG6285TNQ with PID 25828 (D:\Projects\workspace\DataListener\target\classes started by lmuthaiah in D:\Projects\workspace\DataListener)
+2019-01-15 09:27:35,989 DEBUG DataListenerApp [main]  - Running with Spring Boot v2.1.1.RELEASE, Spring v5.1.3.RELEASE
+2019-01-15 09:27:35,989 INFO DataListenerApp [main]  - No active profile set, falling back to default profiles: default
+2019-01-15 09:27:38,144 INFO NetworkTrafficListener [main]  - Couldnt locate network interface for IP: 10.115.171.109
+2019-01-15 09:27:38,145 ERROR DataListener [main]  - Error launching listener Thread Error creating bean with name 'NetworkTrafficListener' defined in file [D:\Projects\workspace\DataListener\target\classes\com\ballyts\datalistener\NetworkTrafficListener.class]: Bean instantiation via constructor failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.ballyts.datalistener.NetworkTrafficListener]: Constructor threw exception; nested exception is java.lang.NullPointerException
+2019-01-15 09:27:38,547 DEBUG NetworkTrafficListener [main]  - Choosing interface with MAC address ec:8e:b5:9c:29:60
+2019-01-15 09:27:38,551 DEBUG NetworkTrafficListener [main]  - Obtained handle 
+2019-01-15 09:27:38,551 DEBUG NetworkTrafficListener [main]  - Filter set as:  host 172.30.44.16
+2019-01-15 09:27:38,555 DEBUG DataListener [main]  - Started Thread
+2019-01-15 09:27:39,002 INFO NetworkTrafficListener [main]  - Couldnt locate network interface for IP: 192.168.1.16
+2019-01-15 09:27:39,002 ERROR DataListener [main]  - Error launching listener Thread Error creating bean with name 'NetworkTrafficListener' defined in file [D:\Projects\workspace\DataListener\target\classes\com\ballyts\datalistener\NetworkTrafficListener.class]: Bean instantiation via constructor failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.ballyts.datalistener.NetworkTrafficListener]: Constructor threw exception; nested exception is java.lang.NullPointerException
+2019-01-15 09:27:39,158 INFO DataListenerApp [main]  - Started DataListenerApp in 3.772 seconds (JVM running for 5.318)
